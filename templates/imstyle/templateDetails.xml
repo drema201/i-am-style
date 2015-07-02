@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
+	<name>imstyle</name>
+	<creationDate>15/07/14</creationDate>
+	<author>Konash Lena</author>
+	<authorEmail>konash.lena@yandex.ru</authorEmail>
+	<version>2.5.0</version>
+	<description>Шаблон для сайта IMStyle</description>
+	<files>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>head_left_1</position>
+		<position>head_left_2</position>
+		<position>head_right_1</position>
+		<position>head_right_2</position>
+		<position>slider</position>
+		<position>breadcrumbs</position>
+		<position>foot_left</position>
+		<position>foot_right</position>
+	</positions>
+
+</extension>

@@ -1,0 +1,51 @@
+#mod_rand {width:100%;clear:both;display:block;overflow:hidden;}
+#mod_rand .mod_rand_clear {clear:both;display:block;width:100%;}
+#mod_rand .mod_rand_product {float:left;display:block;width:100%;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap {padding:10px;border: 4px solid #f7ede3;margin: 0px 10px;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap:hover {border: 4px solid #edecec;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap .mod_rand_image {display:block;width:100%;text-align:center;height:100px;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap .mod_rand_image a {display:block;width:100%;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap .mod_rand_image img {max-height:100px;width:auto;margin:auto;float:none;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap .mod_rand_naz {text-align:center;display:block;clear:both;width:100%;margin: 0px auto 5px auto;}
+#mod_rand .mod_rand_product .mod_rand_product_wrap .mod_rand_price {width:100%;clear:both;display:block;text-align:center;}
+
+#mod_rand ul li {float:left;display:block;}
+.d-carousel {margin:auto;}
+.jcarousel-direction-rtl {direction: rtl;}
+.d-carousel .jcarousel-container {display: block;overflow: hidden;padding:0px 50px 40px 50px;}
+.d-carousel .jcarousel-next-horizontal {
+	position: absolute;
+	top: 55px;
+	right: 0px;
+	display:block;
+	width: 35px;
+	height: 56px;
+	cursor: pointer;
+	background: transparent url(blog-arrows.png) no-repeat top right;
+}
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 0px;
+	right: auto;
+	background-image: url(blog-arrows.png);
+}
+.d-carousel .jcarousel-next-horizontal:hover {
+	background-position: bottom right;
+}
+.d-carousel .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	display:block;
+	width: 35px;
+	height: 56px;
+	cursor: pointer;
+	background: transparent url(blog-arrows.png) no-repeat top left;
+}
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 0px;
+	background-image: url(blog-arrows.png);
+}
+.d-carousel .jcarousel-prev-horizontal:hover {
+	background-position: bottom left;
+}

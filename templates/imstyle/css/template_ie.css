@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* Style overrides for IE */
+
+.head_left_1 ul li a {
+	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-size: 18px;
+	color: #6e1a1a;
+	text-decoration: none;
+}
+.head_left_2 ul li a {
+	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-right: 45px;
+}
+.head_left_2 ul li ul li a {
+	font-size: 18px;
+	text-transform: none;
+	padding-right: 0px;
+}
+.head_right_2 strong {
+	font-size: 24px;
+	color: #f54d56;
+}
+.head_right_2 address {
+	display: block;
+	float: right;
+	height: 25px;
+	line-height: 26px;
+	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-size: 19px;
+	color: #6e1a1a;
+	background: url(../images/phone_ico.png) 0px 0px no-repeat;
+	padding-left: 30px;
+}
+.logo {
+	font-size: 12px;
+	width: 220px;
+	margin-right: 0px;
+}
+.addtocart-area {
+	margin: 5px auto;
+	text-align: center;
+	float: none;
+}
+.addtocart-area {
+	margin: 7px auto;
+	text-align: center;
+	float: none !important;
+}
+.addtocart-button {
+	float: none !important;
+	margin: 0px auto;
+}
+a.product-details {
+	font-size: 18px;
+}
