@@ -101,13 +101,14 @@ class mod_virtuemart_product {
 
 						<div class="clear"></div>
 					</div>
-
+<div>
 					<input type="hidden" class="pname" value="<?php echo $product->product_name ?>"/>
 					<input type="hidden" name="option" value="com_virtuemart"/>
 					<input type="hidden" name="view" value="cart"/>
-					<noscript><input type="hidden" name="task" value="add"/></noscript>
+					<noscript><div><input type="hidden" name="task" value="add"/></div></noscript>
 					<input type="hidden" name="virtuemart_product_id[]" value="<?php echo $product->virtuemart_product_id ?>"/>
 					<input type="hidden" name="virtuemart_category_id[]" value="<?php echo $product->virtuemart_category_id ?>"/>
+                    </div>
 				</form>
 				<div class="clear"></div>
 			</div>

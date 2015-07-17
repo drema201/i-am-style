@@ -1,14 +1,25 @@
 @charset "UTF-8";
 /* Style overrides for IE */
+@font-face {
+    font-family: 'akzidenz-grotesk_proLtCn';
+    src: url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.eot');
+    src: url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.eot?#iefix') format('embedded-opentype'),
+         url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.woff2') format('woff2'),
+         url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.woff') format('woff'),
+         url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.ttf') format('truetype'),
+         url('/templates/imstyle/fonts/akzidenzgroteskpro-lightcn.svg#akzidenz-grotesk_proLtCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 .head_left_1 ul li a {
-	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-family:akzidenz-grotesk_proLtCn, Verdana, sans-serif;
 	font-size: 18px;
 	color: #6e1a1a;
 	text-decoration: none;
 }
 .head_left_2 ul li a {
-	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-family:akzidenz-grotesk_proLtCn, Verdana, sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -28,7 +39,7 @@
 	float: right;
 	height: 25px;
 	line-height: 26px;
-	font-family: AkzidenzGroteskPro_LightCn, Verdana, sans-serif;
+	font-family:akzidenz-grotesk_proLtCn, Verdana, sans-serif;
 	font-size: 19px;
 	color: #6e1a1a;
 	background: url(../images/phone_ico.png) 0px 0px no-repeat;

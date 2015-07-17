@@ -17,7 +17,7 @@ $app = JFactory::getApplication();
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
 	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>
 		<!-- The following JDOC Head tag loads all the header and meta information from your site config and content. -->
 		<jdoc:include type="head" />
 
@@ -29,6 +29,11 @@ $app = JFactory::getApplication();
 
 		<!-- The following line loads the template JavaScript file located in the template folder. It's blank by default. -->
 		<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/template.js"></script>
+        	<style type="text/css">
+					body{
+				font-family: 'akzidenz-grotesk_proLtCn';
+							}
+		</style>
 	</head>
 	<body>
 		<div id="min_height">

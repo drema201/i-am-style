@@ -106,14 +106,16 @@ foreach ( $productList as $product ) {
 							</div>
 					 
 							<?php // Display the add to cart button END ?>
-							<input type="hidden" class="pname" value="<?php echo $product->product_name ?>">
+                            <div>
+							<input type="hidden" class="pname" value="<?php echo $product->product_name ?>" />
 							<input type="hidden" name="option" value="com_virtuemart" />
 							<input type="hidden" name="view" value="cart" />
-							<noscript><input type="hidden" name="task" value="add" /></noscript>
+							<noscript><div><input type="hidden" name="task" value="add" /></div></noscript>
 							<input type="hidden" name="virtuemart_product_id[]" value="<?php echo $product->virtuemart_product_id ?>" />
 							<?php /** @todo Handle the manufacturer view */ ?>
 							<input type="hidden" name="virtuemart_manufacturer_id" value="<?php echo $product->virtuemart_manufacturer_id ?>" />
 							<input type="hidden" name="virtuemart_category_id[]" value="<?php echo $product->virtuemart_category_id ?>" />
+                            </div>
 						</form>
 					</div>
 					<div class="product-price">

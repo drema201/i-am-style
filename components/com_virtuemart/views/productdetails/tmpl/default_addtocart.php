@@ -135,10 +135,12 @@ $alert=JText::sprintf ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED', $step);
 		<?php
 		}
 		?>
+        <div>
 		<input type="hidden" name="option" value="com_virtuemart"/>
 		<input type="hidden" name="view" value="cart"/>
 		<input type="hidden" name="virtuemart_product_id[]" value="<?php echo $this->product->virtuemart_product_id ?>"/>
 		<input type="hidden" class="pname" value="<?php echo htmlentities($this->product->product_name, ENT_QUOTES, 'utf-8') ?>"/>
+        </div>
 	</form>
 	<div class="clear"></div>
 </div>

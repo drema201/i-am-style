@@ -86,11 +86,11 @@ class mod_virtuemart_product {
 						?>
 						<!-- <label for="quantity<?php echo $product->virtuemart_product_id;?>" class="quantity_box"><?php echo JText::_ ('COM_VIRTUEMART_CART_QUANTITY'); ?>: </label> -->
 			<span class="quantity-box">
-			<input type="text" class="quantity-input" name="quantity[]" value="1"/>
+			<input type="text" class="quantity-input" name="quantity[]" value="1" />
 			</span>
 			<span class="quantity-controls">
-			<input type="button" class="quantity-controls quantity-plus"/>
-			<input type="button" class="quantity-controls quantity-minus"/>
+			<input type="button" class="quantity-controls quantity-plus" />
+			<input type="button" class="quantity-controls quantity-minus" />
 			</span>
 
 
@@ -108,13 +108,13 @@ class mod_virtuemart_product {
 
 						<div class="clear"></div>
 					</div>
-
-					<input type="hidden" class="pname" value="<?php echo $product->product_name ?>"/>
-					<input type="hidden" name="option" value="com_virtuemart"/>
-					<input type="hidden" name="view" value="cart"/>
-					<noscript><input type="hidden" name="task" value="add"/></noscript>
-					<input type="hidden" name="virtuemart_product_id[]" value="<?php echo $product->virtuemart_product_id ?>"/>
-					<input type="hidden" name="virtuemart_category_id[]" value="<?php echo $product->virtuemart_category_id ?>"/>
+<div>
+					<input type="hidden" class="pname" value="<?php echo $product->product_name ?>" />
+					<input type="hidden" name="option" value="com_virtuemart" />
+					<input type="hidden" name="view" value="cart" />
+					<noscript><div><input type="hidden" name="task" value="add" /></div></noscript>
+					<input type="hidden" name="virtuemart_product_id[]" value="<?php echo $product->virtuemart_product_id ?>" />
+					<input type="hidden" name="virtuemart_category_id[]" value="<?php echo $product->virtuemart_category_id ?>" /></div>
 				</form>
 				<div class="clear"></div>
 			</div>

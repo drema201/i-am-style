@@ -35,7 +35,7 @@ defined('_JEXEC') or die ('Restricted access'); ?>
           		<?php foreach ($slides as $slide) { ?>
           			<li>
             			<?php if (($slide->link && $params->get('link_image',1)==1) || $params->get('link_image',1)==2) { ?>
-							<a <?php echo ($params->get('link_image',1)==2 ? 'class="modal"' : ''); ?> href="<?php echo ($params->get('link_image',1)==2 ? $slide->image : $slide->link); ?>" target="<?php echo $slide->target; ?>">
+							<a <?php echo ($params->get('link_image',1)==2 ? 'class="modal"' : ''); ?> href="<?php echo ($params->get('link_image',1)==2 ? $slide->image : $slide->link); ?>">
 						<?php } ?>
 							<img src="<?php echo $slide->image; ?>" alt="<?php echo $slide->alt; ?>" />
 						<?php if (($slide->link && $params->get('link_image',1)==1) || $params->get('link_image',1)==2) { ?>

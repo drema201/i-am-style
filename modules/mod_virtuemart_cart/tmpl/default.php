@@ -53,8 +53,6 @@ if ($show_product_list) {
 </div>
 <div style="clear:both;"></div>
 
-<noscript>
-<?php echo JText::_('MOD_VIRTUEMART_CART_AJAX_CART_PLZ_JAVASCRIPT') ?>
-</noscript>
+<noscript><?php echo JText::_('MOD_VIRTUEMART_CART_AJAX_CART_PLZ_JAVASCRIPT') ?></noscript>
 </div>
 
